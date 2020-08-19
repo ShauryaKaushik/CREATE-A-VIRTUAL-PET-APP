@@ -18,8 +18,7 @@ getFoodStock(){
 }
 
 updateFoodStock(foodStock){
-
-database.ref("/").update({foodStock:stock});    
+    
 
 }
 
