@@ -26,7 +26,7 @@ database.ref("/").update({foodStock:stock});
 deductFood(){
 
 if(this.foodStock > 0.3){
-   this.foodStock = this.foodStock + 1
+   this.foodStock = this.foodStock - 1
  }    
         
 }
