@@ -9,17 +9,13 @@ this.image = loadImage("Milk.png");
 
 getFoodStock(){
 
-    var reference;   
-    reference = database.ref("foodObj");
-    reference.on("value",function(data){
-    foodObj = data.val();    
-    });
-
+    return this.foodStock;
 }
 
 updateFoodStock(foodStock){
     
-
+this.foodStock = foodStock
+    
 }
 
 deductFood(){
