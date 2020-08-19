@@ -3,6 +3,7 @@ var dogImage;
 var happyDog;
 var database;
 var foodStock;
+var foodS;
 var feedDog,addFood;
 var fedTime,lastFed;
 var foodObj;
