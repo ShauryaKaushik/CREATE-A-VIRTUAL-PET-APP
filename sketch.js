@@ -2,7 +2,7 @@ var dog;
 var dogImage;
 var happyDog;
 var database;
-var foodS;
+var FoodS;
 var foodStock;
 var feedDog,addFood;
 var fedTime,lastFed;
