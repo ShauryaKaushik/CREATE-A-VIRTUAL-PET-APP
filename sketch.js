@@ -103,7 +103,8 @@ Food:x
     Food:foodObj.getFoodStock(),
     FeedTime:hour()
   }) 
-
+ }
+   
   function addFoods(){
    foodS++;
    database.ref("/").update({
