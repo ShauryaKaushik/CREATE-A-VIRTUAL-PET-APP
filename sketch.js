@@ -52,14 +52,8 @@ function draw() {
   fill("white");
   text("Food Remaining = "+ foodS,200,100);
   
-  if(keyWentDown(UP_ARROW)){
-      writeStock(foodS);
-    dog.addImage(happyDog);
-  }
   
-  if(keyWentDown(DOWN_ARROW)){
-   dog.addImage(dogImage); 
-  }
+      writeStock(foodS);
   
   fill(255,255,254);
   textSize(15);
@@ -71,6 +65,8 @@ function draw() {
      text("Last Feed : "+ lastFed + "AM", 350,30); 
     } 
 
+  Food.display();
+  
  drawSprites();
 
 }
