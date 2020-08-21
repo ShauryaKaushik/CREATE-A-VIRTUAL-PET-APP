@@ -65,7 +65,7 @@ function draw() {
      text("Last Feed : "+ lastFed + "AM", 350,30); 
     } 
 
-  Food.display();
+  food.display();
   
  drawSprites();
 
