@@ -57,7 +57,7 @@ function draw() {
   text("Food Remaining = "+ foodS,200,100);
   
   
-      writeStock(foodS);
+      writeStock(food);
   
   fill(255,255,254);
   textSize(15);
@@ -90,7 +90,7 @@ x = x-1;
 }
 
 database.ref("/").update({
-Food:x
+food:x
 })
 
 }
