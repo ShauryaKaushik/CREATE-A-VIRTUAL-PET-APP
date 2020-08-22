@@ -33,7 +33,10 @@ function setup() {
   addFood.position(800,95);
   addFood.mousePressed(addFoods);
 
+  food = new food();
+  
   createCanvas(500, 500);
+  
   
 }
 
