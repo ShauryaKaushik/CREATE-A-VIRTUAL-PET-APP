@@ -4,6 +4,7 @@ var happyDog;
 var database;
 var foodStock;
 var foodS;
+var food;
 var feedDog,addFood;
 var fedTime,lastFed;
 var foodObj;
