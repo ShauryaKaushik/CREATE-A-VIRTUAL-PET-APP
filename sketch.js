@@ -52,8 +52,6 @@ function draw() {
   });
 
   fill("white");
-  text("Press the Up Arrow Key to Feed Drago !",100,50);
-  fill("white");
   text("Food Remaining = "+ foodS,200,100);
   
   
