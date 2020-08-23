@@ -48,11 +48,5 @@ image(this.image,720,220,70,70);
 
 }
 
-    readStock(data){
-    
-    food.updateFoodStock(foodS);
-    
-    }
-        
-    
+           
 }
