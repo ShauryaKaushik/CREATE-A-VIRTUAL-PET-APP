@@ -34,7 +34,7 @@ function setup() {
   addFood.position(550,95);
   addFood.mousePressed(addFoods);
 
-  food = new food();
+  food = new Food();
   
   createCanvas(500, 500);
   
