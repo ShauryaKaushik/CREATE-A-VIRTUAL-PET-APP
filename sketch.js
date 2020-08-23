@@ -27,11 +27,11 @@ function setup() {
 
 
   feed = createButton("Feed The Dog"); 
-  feed.position(700,95);
+  feed.position(200,95);
   feed.mousePressed(feedDog); 
 
   addFood = createButton("Add Food");
-  addFood.position(800,95);
+  addFood.position(250,95);
   addFood.mousePressed(addFoods);
 
   food = new Food();
