@@ -53,9 +53,7 @@ function draw() {
 
   fill("white");
   text("Food Remaining = "+ foodS,200,100);
-  
-  
-      writeStock(food);
+
   
   fill(255,255,254);
   textSize(15);
@@ -79,13 +77,6 @@ foodS = data.val();
 
 }
 
-function writeStock(x){
-
-if(x <= 0){
-x = 0;   
-}else{
-x = x-1;
-}
 
 database.ref("/").update({
 food:x
@@ -96,9 +87,9 @@ food:x
  function feedDog(){
   dog.addImage(happyDog);
 
-  foodObj.updateFoodStock(foodObj.getFoodStock()-1);
+  food.updateFoodStock(food.getFoodStock()-1);
   database.ref("/").update({
-    Food:foodObj.getFoodStock(),
+    Food:food.getFoodStock(),
     FeedTime:hour()
   }) 
  }
