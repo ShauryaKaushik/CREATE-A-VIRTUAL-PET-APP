@@ -83,7 +83,7 @@ database.ref("/").update({
 food:x
 })
 
-}
+
 
  function feedDog(){
   dog.addImage(happyDog);
