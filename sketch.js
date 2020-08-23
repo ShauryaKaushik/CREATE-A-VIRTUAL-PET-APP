@@ -46,7 +46,7 @@ function draw() {
 
   background(46,139,87);
   
-  fedTime = database.ref('Feed Time');
+  fedTime = database.ref('FeedTime');
   fedTime.on("value",function(data){
     lastFed = data.val();
   });
@@ -74,7 +74,8 @@ function draw() {
 function readStock(data){
 
 foodS = data.val();
-
+food.updateFoodStock(foodS);
+  
 }
 
 
